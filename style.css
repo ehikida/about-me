@@ -1,0 +1,15 @@
+a:link {
+  text-decoration: none;
+  color: hotpink;
+}
+a:visited {
+  color: hotpink;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  text-align: center;
+  font-style: italic;
+}
