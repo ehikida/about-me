@@ -13,181 +13,170 @@ code from any other source, providing source code to another student,
 or leaving my code on a public web site constitutes cheating.
 I acknowledge that  If I am found in violation of this policy this may result
 in a zero grade, a permanent record on file and possibly immediate failure of the class.
- 
-
---SELF GRADE--
-HEADER               A 
-PERSONAL INFO        A 
-FAVE BOOKS           A 
-HAIKU                A 
-ESSAY                A 
-SCHEDULE             A 
-
---EXTRA ITEMS COMPLETED--Minimum of 5
-REPEATING BKG IMG (2pts)        YES
-CHANGE FONT (2pts)              YES
-RT ALIGN PHOTO (2pts)           YES
-MOUSE-OVERHYPERLINKS            YES
-INDENT/CENTER HAIKU (2pts)      YES
-TABLE-TEXT ALIGN (2pts)         NO
-TABLE-COLOR CODE (2pts)         YES
-TABLE-EQUAL COL WIDTH (2pts)    YES
-ADDITIONAL COMMENTS:
-    I centered the data on the table because I preferred it that way.
- 
 -->
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aboutme.style/styles.css" />
   <title>About Beth</title>
   <link rel="icon" href="hikida.png" />
-  <style></style>
 </head>
 
-<body style="font-family: Arial" background="background.jpg">
-  <h1>Beth Mena</h1>
-  <img align="right" src="aboutme pic.jpg" alt="Picture of Bethy" width="400" />
-
-  <h2>Personal Info:</h2>
-  <ul>
-    <li><b>Major:</b> Software Development</li>
-    <li><b>High School:</b> Kailua High School, Kailua, Hawaii. 2002</li>
-    <li>
-      <b>Current year at UVU:</b> First year, though technically a senior
-    </li>
-    <li><b>Favorite ice cream:</b> Ben & Jerry's Cherry Garcia</li>
-  </ul>
-
-  <h2>My five favorite self-help books</h2>
-  <ol>
-    <li>
-      <i>Psychopath Free</i> by
-      <a href="https://www.psychopathfree.com/" target="_blank">Jackson MacKenzie</a>
-    </li>
-    <li>
-      <i>The Power of Vulnerability</i> by
-      <a href="https://brenebrown.com/" target="_blank">Brene Brown</a>
-    </li>
-    <li>
-      <i>Girl, wash your face</i> by
-      <a href="https://msrachelhollis.com/" target="_blank">Rachel Hollis</a>
-    </li>
-    <li>
-      <i>Atomic Habits</i> by
-      <a href="https://jamesclear.com/atomic-habits" target="_blank">James Clear</a>
-    </li>
-    <li>
-      <i>Think Like a Monk</i> by
-      <a href="https://thinklikeamonkbook.com/" target="_blank">Jay Shetty</a>
-    </li>
-  </ol>
-
-  <h2>Black Thumb</h2>
+<body>
   <div>
-    Not enough sunshine <br />
-    The wrong amount of water <br />
-    Brown and crispy leaves
+    <h1>Beth Mena</h1>
+    <img id="portrait" src="aboutme pic.jpg" alt="Picture of Beth" />
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+    <script src="index.js"></script>
+
+    <h2>Personal Info:</h2>
+    <ul>
+      <li><b>Major:</b> Software Development</li>
+      <li><b>High School:</b> Kailua High School, Kailua, Hawaii. 2002</li>
+      <li>
+        <b>Current year at UVU:</b> First year Senior. I have a BS in Food Science from BYU
+      </li>
+      <li><b>Favorite ice cream:</b> Ben & Jerry's Cherry Garcia</li>
+    </ul>
+
+    <h2>My five favorite self-help books</h2>
+    <ol>
+      <li>
+        <span class="title">Psychopath Free</span> by
+        <a href="https://www.psychopathfree.com/" target="_blank">Jackson MacKenzie</a>
+      </li>
+      <li>
+        <span class="title">The Power of Vulnerability</span> by
+        <a href="https://brenebrown.com/" target="_blank">Brene Brown</a>
+      </li>
+      <li>
+        <span class="title">Girl, wash your face</span> by
+        <a href="https://msrachelhollis.com/" target="_blank">Rachel Hollis</a>
+      </li>
+      <li>
+        <span class="title">Atomic Habits</span> by
+        <a href="https://jamesclear.com/atomic-habits" target="_blank">James Clear</a>
+      </li>
+      <li>
+        <span class="title">Think Like a Monk</span> by
+        <a href="https://thinklikeamonkbook.com/" target="_blank">Jay Shetty</a>
+      </li>
+    </ol>
+
+    <h2>Black Thumb</h2>
+    <div class="haiku">
+      Not enough sunshine <br />
+      The wrong amount of water <br />
+      Brown and crispy leaves <br>
+    </div>
+    <p id="inspiration">I have a hard time keeping houseplants alive.</p>
+
+    <h2>My personal interests</h2>
+    <p>
+      I enjoy baking. I made my first batch of macarons in 2020 during the
+      pandemic. I have since taken two macaraon baking classes at Harmons and
+      baked several batches over the past few years. I taught a class to a few
+      women in my neighborhood.
+    </p>
+    <p>
+      K-dramas are my new go-to choice on Netflix. The first K-drama I watched
+      was Extraordinary Attorney Woo. It drew me in and I have watched several
+      other shows, including anything from period piece to horror to fantasy!
+    </p>
+    <p>
+      A new found passion of mine is travel! My husband and I went to Peru in
+      2023. It was beautiful, and the food was to die for. I went to New York
+      for the first time with a friend last year, and am hoping to go to Japan
+      with my family at the end of this year. I went when I was about 13, but I
+      don't think I fully appreciated it. France is on my bucket list of places
+      to visit.
+    </p>
+
+    <h2>Class Schedule</h2>
+    <table>
+      <tr>
+        <th class="time"></th>
+        <th class="day">Monday</th>
+        <th class="day">Tuesday</th>
+        <th class="day">Wednesday</th>
+        <th class="day">Thursday</th>
+        <th class="day">Friday</th>
+      </tr>
+      <tr>
+        <td>1:00</td>
+        <td rowspan="3" class="yoga">Yoga</td>
+        <td rowspan="3" class="data">Data Structures <br>and Algorithms</td>
+        <td rowspan="3" class="yoga">Yoga</td>
+        <td rowspan="3" class="data">Data Structures <br>and Algorithms</td>
+        <td rowspan="3" class="yoga">Yoga</td>
+      </tr>
+      <tr>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td>2:00</td>
+      </tr>
+      <tr>
+        <td>2:30</td>
+        <td></td>
+        <td rowspan="3" class="web">Web Programming</td>
+        <td></td>
+        <td rowspan="3" class="web">Web Programming</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3:00</td>
+        <td rowspan="3" class="french">French</td>
+        <td rowspan="3" class="french">French</td>
+        <td rowspan="3" class="french">French</td>
+      </tr>
+      <tr>
+        <td>3:30</td>
+      </tr>
+      <tr>
+        <td>4:00</td>
+        <td rowspan="3" class="math">Discreet Math</td>
+
+        <td rowspan="3" class="math">Discreet Math</td>
+      </tr>
+      <tr>
+        <td>4:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
   </div>
-  <br />
-  I have a hard time keeping houseplants alive.
-
-  <h2>My personal interests</h2>
-  <p>
-    I enjoy baking. I made my first batch of macarons in 2020 during the
-    pandemic. I have since taken two macaraon baking classes at Harmons and
-    baked several batches over the past few years. I taught a class to a few
-    women in my neighborhood.
-  </p>
-  <p>
-    K-dramas are my new go-to choice on Netflix. The first K-drama I watched
-    was Extraordinary Attorney Woo. It drew me in and I have watched several
-    other shows, including anything from period piece to horror to fantasy!
-  </p>
-  <p>
-    A new found passion of mine is travel! My husband and I went to Peru in
-    2023. It was beautiful, and the food was to die for. I went to New York
-    for the first time with a friend last year, and am hoping to go to Japan
-    with my family at the end of this year. I went when I was about 13, but I
-    don't think I fully appreciated it. France is on my bucket list of places
-    to visit.
-  </p>
-
-  <h2>Class Schedule</h2>
-  <table border="1" cellpadding="3" cellspacing="3" style="text-align: center">
-    <tr>
-      <th style="width: 10%"></th>
-      <th style="width: 18%">Monday</th>
-      <th style="width: 18%">Tuesday</th>
-      <th style="width: 18%">Wednesday</th>
-      <th style="width: 18%">Thursday</th>
-      <th style="width: 18%">Friday</th>
-    </tr>
-    <tr>
-      <td>1:00</td>
-      <td rowspan="3" style="background-color: hsl(180, 57%, 85%)">Yoga</td>
-      <td rowspan="3" style="background-color: rgb(193, 238, 200)">
-        Data Structures and Algorithms
-      </td>
-      <td rowspan="3" style="background-color: rgb(193, 238, 238)">Yoga</td>
-      <td rowspan="3" style="background-color: rgb(193, 238, 200)">
-        Data Structures and Algorithms
-      </td>
-      <td rowspan="3" style="background-color: rgb(193, 238, 238)">Yoga</td>
-    </tr>
-    <tr>
-      <td>1:30</td>
-    </tr>
-    <tr>
-      <td>2:00</td>
-    </tr>
-    <tr>
-      <td>2:30</td>
-      <td></td>
-      <td rowspan="3" style="background-color: rgb(233, 238, 193)">
-        Web Programming
-      </td>
-      <td></td>
-      <td rowspan="3" style="background-color: rgb(233, 238, 193)">
-        Web Programming
-      </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>3:00</td>
-      <td rowspan="3" style="background-color: rgb(238, 193, 222)">French</td>
-      <td rowspan="3" style="background-color: rgb(238, 193, 222)">French</td>
-      <td rowspan="3" style="background-color: rgb(238, 193, 222)">French</td>
-    </tr>
-    <tr>
-      <td>3:30</td>
-    </tr>
-    <tr>
-      <td>4:00</td>
-      <td rowspan="3" style="background-color: rgb(238, 216, 193)">
-        Discreet Math
-      </td>
-
-      <td rowspan="3" style="background-color: rgb(238, 216, 193)">
-        Discreet Math
-      </td>
-    </tr>
-    <tr>
-      <td>4:30</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>5:00</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-  <br />
 </body>
 
 </html>
+
+<!----SELF GRADE--
+BODY        A 
+NAME        A 
+PORTRAIT    A 
+HEADINGS    A 
+SCHEDULE    A 
+
+--EXTRA CREDIT COMPLETED--
+FLOATING DIV (5pts)    YES
+STRIPED TABLE (5pts)   YES
+WEB FONTS
+MODAL PORTRAIT (10pts) YES
+ARTISTIC MERIT (10pts) YES/NO (Add description of what you did)
+ADDITIONAL COMMENTS:
+
+ -->
